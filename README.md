@@ -1,1 +1,2 @@
-## Custom Next.js template for TypeScript with Tailwind CSS
+## Summary
+Custom Next.js template for TypeScript with Tailwind CSS
