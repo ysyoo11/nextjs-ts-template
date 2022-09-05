@@ -7,6 +7,24 @@
     "@next/next/no-img-element": "warn",
     "unused-imports/no-unused-imports": "warn",
     "import/newline-after-import": "error",
-    "no-restricted-imports": ["warn", { "patterns": ["../**"] }]
+    "no-restricted-imports": ["warn", { "patterns": ["../**"] }],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": { "order": "asc", "caseInsensitive": true },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "unknown",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ]
+      }
+    ]
   }
 }
